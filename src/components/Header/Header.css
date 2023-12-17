@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #4284f5;
+  }
+  
+  .header-content {
+    min-height: 75vh;
+    background: linear-gradient(rgba(66, 132, 245, 0.3), rgba(66, 132, 245, 0.3)), url("../../images/book_background.png") center/cover no-repeat;
+    flex-direction: column;
+}
+
+.header-title {
+    font-size: 4.2rem;
+    color: black;
+}
+
+.header-text {
+    margin-top: -1.8rem;
+    margin-top: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+    color: black;
+
+}
