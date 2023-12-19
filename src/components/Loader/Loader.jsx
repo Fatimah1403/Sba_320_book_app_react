@@ -1,9 +1,11 @@
-// import React from 'react'
+import React from 'react'
+import LoaderImg from "../../images/loader.svg"
+import './Loader.css'
 
 function Loader() {
   return (
-    <div>
-      
+    <div className="Loader flex flex-c">
+      <img src= {LoaderImg} alt="Loader" />
     </div>
   )
 }
