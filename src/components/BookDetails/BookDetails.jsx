@@ -32,7 +32,7 @@ function BookDetails() {
           const newBooks = {
             description: description ? description.value : 'No description found',
             title: title,
-            cover_img: covers ? `https://openlibrary.org/b/id/${covers[0]}-L.jpg` : coverImg,
+            cover_img: covers ? `https://covers.openlibrary.org/b/id/${covers[0]}-L.jpg` : coverImg,
             subject_people: subject_people,
             subjects: subjects ? subjects.join(", ") : "No subjects found",
             subject_places: subject_places ? subject_places.join(", ") : "No subject places found",
